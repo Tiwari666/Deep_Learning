@@ -1,6 +1,6 @@
 # Deep_Learning
 
-Artificial Intelligence: a program that can sense, reason, act and adapt.
+Artificial Intelligence: Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems.
 
 Machine Learning: algorithms whose performance improve as they are exposed to more data over time.
 
@@ -125,7 +125,7 @@ These networks are extensively used for speech recognition and other machine lea
 
 
 
-# Four pillars of deep learning:
+# Eight pillars of deep learning:
 
 
 A neural network is a computational model inspired by the structure and functioning of the human brain. It is a fundamental
@@ -193,7 +193,15 @@ networks. The depth and complexity of neural networks allow them to learn hierar
 them powerful tools for a wide range of applications.
 
 
+# When to use Deep Learning?
 
+Deep Learning out perform other techniques if the data size is large. But with small data size, traditional Machine Learning algorithms are preferable.
+
+Deep Learning techniques need to have high end infrastructure to train in reasonable time.
+
+When there is lack of domain understanding for feature introspection, Deep Learning techniques outshines others as you have to worry less about feature engineering.
+
+Deep Learning really shines when it comes to complex problems such as image classification, natural language processing, and speech recognition.
   
   
 # REFERENCES:
@@ -205,3 +213,5 @@ Link2: https://www.linkedin.com/pulse/what-deep-learning-definition-techniques-e
 Link 3: Various Online sources
 
 Link4: https://www.educba.com/deep-learning-networks/
+
+Link5: https://towardsdatascience.com/why-deep-learning-is-needed-over-traditional-machine-learning-1b6a99177063
