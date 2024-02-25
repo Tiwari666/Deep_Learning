@@ -61,17 +61,6 @@ DL is a subset of machine learning that uses neural networks with multiple layer
 in data. It is inspired by the structure and function of the human brain and has been successful in a variety of tasks, such as
 computer vision, natural language processing, and speech recognition.
 
-# What is a neural network?
-
-Neural networks, also called artificial neural networks (ANNs) or simulated neural networks (SNNs), are a subset of machine
-learning and are the backbone of deep learning algorithms. They are called “neural” because they mimic how neurons in the
-brain signal one another.
-Neural networks are made up of node layers – an input layer, one or more hidden layers, and an output layer. Each node is an
-artificial neuron that connects to the next, and each has a weight and threshold value. When one node’s output is above the
-threshold value, that node is activated and sends its data to the network’s next layer. If it’s below the threshold, no data passes
-along.
-Training data teach neural networks and help improve their accuracy over time.
-
 
 
 
@@ -122,6 +111,19 @@ These networks are extensively used for speech recognition and other machine lea
 9) Autoencoders
 
 10) Backpropagation
+
+
+
+# What is a neural network?
+
+Neural networks, also called artificial neural networks (ANNs) or simulated neural networks (SNNs), are a subset of machine
+learning and are the backbone of deep learning algorithms. They are called “neural” because they mimic how neurons in the
+brain signal one another.
+Neural networks are made up of node layers – an input layer, one or more hidden layers, and an output layer. Each node is an
+artificial neuron that connects to the next, and each has a weight and threshold value. When one node’s output is above the
+threshold value, that node is activated and sends its data to the network’s next layer. If it’s below the threshold, no data passes
+along.
+Training data teach neural networks and help improve their accuracy over time.
 
 
 
