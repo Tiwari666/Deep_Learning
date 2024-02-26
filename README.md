@@ -187,6 +187,17 @@ and the true target. The goal during training is to minimize this loss.
 Optimization algorithms, such as gradient descent, are used to adjust the
 weights and biases iteratively during training to minimize the loss.
 
+Gradient descent is an optimization algorithm which is commonly-used to
+train machine learning models and neural networks.
+
+This method is commonly used in machine learning (ML) and deep
+learning (DL) to minimise a cost/loss function (e.g. in a linear regression).
+
+A gradient simply measures the change in all weights with regard to the
+change in error.
+
+
+
 
 
 Neural networks can be applied to various tasks, including image and speech recognition, natural language processing, and
