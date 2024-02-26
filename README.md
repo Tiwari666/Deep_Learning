@@ -205,6 +205,36 @@ regression. Deep learning refers to the use of neural networks with multiple hid
 networks. The depth and complexity of neural networks allow them to learn hierarchical and abstract features from data, making
 them powerful tools for a wide range of applications.
 
+# Epoch and Batch:
+
+A batch size of one implies that one record is processed at a time during
+the training, and therefore the weights and biases are updated based on
+the gradients produced on this record. This consumes less memory,
+however, the computation takes longer for a larger dataset.
+The batch size is a hyperparameter of gradient descent that controls the
+number of training samples to work through before the model’s internal
+parameters are updated. The number of epochs is a hyperparameter
+of gradient descent that controls the number of complete passes
+through the training dataset. An epoch in machine learning means one
+complete pass of the training dataset through the algorithm. 
+
+Example:
+
+Batch/sample: Subset of training data used in one iteration.
+
+Example: Suppose you have a dataset of 1000 training samples, and you choose a batch size of 32. In this case, the training data would be divided into batches of 32 samples each. The model's parameters would be updated after processing each batch of 32 samples during the training process.
+
+Iteration: Single update of model's parameters based on a batch of training data.
+
+Epoch: One  forward pass and backward pass through the entire (training) dataset during the training process.
+
+
+one epoch = one forward pass and one backward pass of all the training examples.
+
+batch size = the number of training examples in one forward/backward pass. The higher the batch size, the more memory space you'll need.
+
+number of iterations = number of passes, each pass using [batch size] number of examples. To be clear, one pass = one forward pass + one backward pass (we do not count the forward pass and backward pass as two different passes).
+For example: if you have 1000 training examples, and your batch size is 500, then it will take 2 iterations to complete 1 epoch.
 
 # When to use Deep Learning?
 
