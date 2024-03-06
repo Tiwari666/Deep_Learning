@@ -187,6 +187,8 @@ and the true target. The goal during training is to minimize this loss.
 Optimization algorithms, such as gradient descent, are used to adjust the
 weights and biases iteratively during training to minimize the loss.
 
+# Note: Dropout is a regularization technique used to prevent overfitting in neural networks by randomly dropping out (setting to zero) a fraction of neurons during training.
+
 Gradient descent is an optimization algorithm which is commonly-used to
 train machine learning models and neural networks.
 
