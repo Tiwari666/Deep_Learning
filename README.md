@@ -247,7 +247,37 @@ Deep Learning techniques need to have high end infrastructure to train in reason
 When there is lack of domain understanding for feature introspection, Deep Learning techniques outshines others as you have to worry less about feature engineering.
 
 Deep Learning really shines when it comes to complex problems such as image classification, natural language processing, and speech recognition.
+
+# Additional Notes:
+
+# What is the role of activation functions in neural networks?  
+
+- Activation functions introduce non-linearity into neural networks, allowing them to learn complex patterns in the data. Common activation functions include sigmoid, tanh, ReLU, and softmax.
   
+#  What is batch normalization, and why is it used in deep learning?  
+
+- Batch normalization is a technique used to improve the training speed, stability, and performance of deep neural networks. It normalizes the activations of each layer by subtracting the batch mean and dividing by the batch standard deviation, reducing internal covariate shift and accelerating convergence.
+- 
+# Explain the concept of backpropagation(=min loss fun) in neural networks. 
+
+ - Backpropagation is an algorithm used to train neural networks by propagating errors backward from the output layer to the input layer. It calculates the gradient of the loss function with respect to each parameter using the chain rule of calculus and updates the parameters using gradient descent.
+#  What is the purpose of dropout(dropping some neurons) in neural networks? 
+
+ - Dropout is a regularization technique used to prevent overfitting in neural networks by randomly dropping a fraction of neurons during training. It helps to reduce co-adaptation between neurons and encourages the network to learn more robust features. 
+  
+# What is transfer learning, and how is it used in deep learning? 
+
+ - Transfer learning is a technique where a pre-trained neural network model is used as a starting point for a new task. By fine-tuning the parameters of the pre-trained model on a new dataset, transfer learning allows for faster convergence and better performance, especially when the new dataset is small or similar to the original dataset.
+
+# What are the challenges of training deep learning models?  
+
+- Challenges of training deep learning models include overfitting, vanishing gradients, exploding gradients, computational complexity, and the need for large amounts of labeled data.
+  
+ # What is the purpose of the Adam optimizer in deep learning?  
+
+- The Adam optimizer is an adaptive learning rate optimization algorithm used to train neural networks. It combines ideas from momentum optimization and RMSProp to adaptively adjust the learning rate for each parameter based on the gradients and the history of past gradients.
+-  Momentum optimization is a technique used in gradient descent algorithms to accelerate convergence. 
+- RMSProp (Root Mean Square Propagation): RMSProp is an adaptive learning rate optimization algorithm designed to address the problem of diminishing learning rates in traditional gradient descent. This helps in adjusting the learning rates for different parameters individually and mitigating the issues of vanishing or exploding gradients.
   
 # REFERENCES:
 
